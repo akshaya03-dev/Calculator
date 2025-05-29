@@ -51,8 +51,6 @@ class CalculatorApp:
         self.entry.delete(0, tk.END)
         self.entry.insert(0, self.expression)
 
-
-# Run the calculator
 if __name__ == "__main__":
     root = tk.Tk()
     root.geometry("400x550")
